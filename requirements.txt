@@ -1,0 +1,8 @@
+source venv/bin/activate  # Linux/Mac
+# or
+.\venv\Scripts\activate  # Windows
+pip install django djangorestframework
+pip freeze > requirements.txt
+Django==3.2.5
+djangorestframework==3.12.4
+# Add any other dependencies here
