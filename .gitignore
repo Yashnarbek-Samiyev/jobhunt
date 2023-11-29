@@ -60,3 +60,22 @@ coverage.xml
 
 # example database
 drf_example
+db.sqlite3
+```
+I have tried to add the following to my .gitignore file:
+```
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions  
+news_images/
+profile_pics
+resumes/
+```
+
+### Django
+
+```
+# Django stuff:
+*.log
